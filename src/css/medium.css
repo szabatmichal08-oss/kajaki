@@ -1,0 +1,144 @@
+@media only screen and (min-width: 768px) {
+  .pageTitle {
+    font-size: 3.6rem;
+  }
+  .home__textWrapper {
+    top: 70vh;
+    max-width: 500px;
+  }
+  .home__text {
+    font-size: 1.6rem;
+  }
+  .home__button {
+    font-size: 3rem;
+  }
+  .news__cardWrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    max-width: 1200px;
+  }
+  .news__cardUp {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .news__image {
+    top: 0;
+    max-height: 100%;
+    width: auto;
+  }
+  .news__cardDown {
+    padding: 5px 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .news__title {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  .news__content {
+    font-size: 1.2rem;
+  }
+  .news__button {
+    font-size: 1.2rem;
+    padding: 6px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .news__button:hover {
+    text-decoration: underline;
+  }
+  .admin .galery__item {
+    width: 90%;
+    margin: 5px;
+    border: 1px solid black;
+  }
+  .offer li {
+    padding: 5px 10px;
+  }
+  .offer__upper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .offer__left {
+    font-size: 1.8rem;
+    width: 300px;
+  }
+  .offer__right {
+    width: 400px;
+  }
+  .offer__down, .offer__price {
+    font-size: 1.4rem;
+  }
+  .offer__down {
+    top: 600px;
+    width: 400px;
+  }
+  .offer__imagesWrapper {
+    flex-direction: row;
+  }
+  .offer__img {
+    margin: 10px 5px;
+  }
+  .galery__dates {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .header {
+    background: linear-gradient(90deg, rgba(230, 215, 89, 0.73) 31.77%, rgba(153, 183, 64, 0.98) 45.68%);
+  }
+  .header__title {
+    font-size: 3.2rem;
+    left: 80px;
+    top: 5px;
+  }
+  .header__titleWrapper {
+    position: absolute;
+    left: 80px;
+  }
+  .header__logo {
+    width: 60px;
+    height: auto;
+  }
+  .header__hamburger {
+    display: none;
+  }
+  .deskNav {
+    display: flex;
+  }
+  .deskNav__item {
+    font-size: 2rem;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    padding: 2px 4px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+  }
+  .deskNav__item:hover {
+    border: 2px solid #fff;
+  }
+  .deskNav__item.active {
+    background-color: #fff;
+  }
+  .weather {
+    display: block;
+    height: 80px;
+    right: 1px;
+    width: 180px;
+    margin-top: 0;
+  }
+  .regulamin__umowa {
+    top: 100px;
+  }
+}
+/*# sourceMappingURL=medium.css.map */

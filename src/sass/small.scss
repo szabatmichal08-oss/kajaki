@@ -1,0 +1,35 @@
+@media only screen and (min-width: 576px) {
+   
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__textWrapper{
+           //  margin: 0 auto;
+            max-width: 500px;
+        }
+    }
+
+
+    .galery{
+        &__items{
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+        &__item{
+            // width: 47%;
+            max-width: 300px;
+            max-height: 200px;
+        }
+    }
+    .offer{
+        &__left{
+            width: 300px;
+        }
+        &__down{
+            position: absolute;
+            top: 509px;
+        }
+    }
+}
